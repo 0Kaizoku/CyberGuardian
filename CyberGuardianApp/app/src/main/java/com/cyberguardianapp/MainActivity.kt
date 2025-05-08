@@ -144,8 +144,7 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun updateAppList(apps: List<AppInfo>) {
-        // Create and set adapter (will be implemented later)
-        // appListRecyclerView.adapter = AppListAdapter(apps)
+        appListRecyclerView.adapter = AppListAdapter(apps)
     }
     
     override fun onResume() {
