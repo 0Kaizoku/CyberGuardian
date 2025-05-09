@@ -1,11 +1,11 @@
 package com.cyberguardian.service;
 
-import com.cyberguardian.model.Application;
-import com.cyberguardian.model.Permission;
-import com.cyberguardian.model.RiskPrediction;
-import com.cyberguardian.repository.ApplicationRepository;
-import com.cyberguardian.repository.PermissionRepository;
-import com.cyberguardian.repository.RiskPredictionRepository;
+import  com.cyberguardian.model.Application;
+import  com.cyberguardian.model.Permission;
+import  com.cyberguardian.model.RiskPrediction;
+import  com.cyberguardian.repository.ApplicationRepository;
+import  com.cyberguardian.repository.PermissionRepository;
+import  com.cyberguardian.repository.RiskPredictionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
